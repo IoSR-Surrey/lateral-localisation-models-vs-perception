@@ -1,0 +1,6 @@
+function model_ids = all_model_output_model_ids()
+%ALL_MODEL_OUTPUT_MODEL_IDS Canonical model ids used in output caching.
+model_ids = {'lindemann1986', 'breebaart2001', 'faller2004', 'may2011', ...
+    'dietz2011', 'takanen2013', 'llado2025', 'kurz2017', 'stitt2016', ...
+    'rE', 'saddler2024', 'wang2026', 'vecchiotti2019'};
+end

@@ -1,0 +1,6 @@
+function model_ids = model_plot_order()
+%MODEL_PLOT_ORDER Canonical left-to-right, top-to-bottom order for model grid plots.
+model_ids = {'lindemann1986', 'breebaart2001', 'faller2004', 'may2011', ...
+    'dietz2011', 'takanen2013', 'vecchiotti2019', 'saddler2024', ...
+    'llado2025', 'wang2026', 'rE', 'stitt2016', 'kurz2017'};
+end

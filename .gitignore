@@ -1,0 +1,27 @@
+# Machine-specific configuration (copy local_paths_template.m -> local_paths.m)
+local_paths.m
+
+# Generated outputs
+figures/
+templates/
+model_output_data/*
+!model_output_data/.gitkeep
+
+# Third-party Stitt et al. extended energy-vector implementation.
+# Install with models/extended_re/download_stitt2016.m.
+models/extended_re/stitt2016/
+
+# Third-party perceptual data and HRTFs: only code and READMEs are tracked.
+aux_data/**
+!aux_data/**/
+!aux_data/**/*.m
+!aux_data/**/README.md
+*.sofa
+
+# Editor / OS / tooling
+.cursor/
+.DS_Store
+*.asv
+*.mex*
+__pycache__/
+*.pyc
