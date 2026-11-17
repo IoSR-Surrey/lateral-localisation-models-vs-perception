@@ -431,6 +431,7 @@ if use_parallel
     pool = gcp('nocreate');
     if ~isempty(pool)
         pctRunOnAll setenv('VENV_PYTHON', getenv('VENV_PYTHON'));
+        pctRunOnAll amt_start('silent');
     end
 end
 
